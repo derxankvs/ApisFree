@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Documentação da API - CenterApis</title>
+<link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+  <h2>Bem-vindo, {{ user }}</h2>
+  <h3>📚 Como usar a API:</h3>
+  <p>Envie requisições para os seguintes endpoints:</p>
+
+  <ul>
+    <li><code>/free/v1/{tipo}/{dado}</code></li>
+    <li><code>/free/v2/{tipo}/{dado}</code></li>
+    <li><code>/free/whois/{dominio}</code></li>
+    <li><code>/free/ddd/{numero}</code></li>
+  </ul>
+
+  <p>Você deve estar logado para acessar essas rotas.</p>
+  <a href="/login">Sair</a>
+</body>
+</html>
